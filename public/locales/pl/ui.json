@@ -1,0 +1,12 @@
+{
+  "navMenu": ["Panel główny", "Produkty", "Oferty", "Zamówienia"],
+  "navIconBellTitle": "Panel powiadomień",
+  "helpIconTitle": "Dział pomocy",
+  "userPanelYourAccountLink": "Twoje konto",
+  "userPanelSettingsLink": "Ustawienia",
+  "userPanelLogout": "Wyloguj",
+  "langPl": "PL",
+  "langPlTitle": "Polski",
+  "langEn": "EN",
+  "langEnTitle": "English"
+}

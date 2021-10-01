@@ -1,0 +1,12 @@
+{
+  "navMenu": ["Dashboard", "Products", "Offers", "Orders"],
+  "navIconBellTitle": "Notification panel",
+  "helpIconTitle": "Help section",
+  "userPanelYourAccountLink": "Your account",
+  "userPanelSettingsLink": "Settings",
+  "userPanelLogout": "Logout",
+  "langPl": "PL",
+  "langPlTitle": "Polski",
+  "langEn": "EN",
+  "langEnTitle": "English"
+}
