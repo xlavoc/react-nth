@@ -21,6 +21,6 @@ export const IconWrapper = styled.a`
   }
 
   &:hover > svg {
-    fill: var(--main-active-style);
+    fill: ${props => props.theme.colors.mainActive};
   }
 `;
