@@ -4,6 +4,6 @@ export const Hr = styled.hr`
   width: 100%;
   border: 0;
   height: 1px;
-  background-color: var(--main-accent-style);
+  background-color: ${props => props.theme.colors.mainAccent};
   margin: .25rem 0;
 `;

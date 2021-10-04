@@ -7,6 +7,6 @@ export const NavWrapper =  styled.nav`
   left: 0;
   display: flex;
   align-items: center;
-  background-color: var(--main-dark-style);
-  color: var(--main-light-style);
+  background-color: ${props => props.theme.colors.mainDark};
+  color: ${props => props.theme.colors.mainLight};
 `;

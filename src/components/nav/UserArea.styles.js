@@ -8,7 +8,7 @@ export const UserAreaWrapper = styled.div`
 export const IconWrapper = styled.a`
   height: 100%;
   padding: 0 1.5rem;
-  border: 1px solid var(--main-accent-style);
+  border: 1px solid ${props => props.theme.colors.mainAccent};
   border-top: none;
   border-bottom: none;
 
@@ -16,7 +16,7 @@ export const IconWrapper = styled.a`
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    fill: var(--main-light-style);
+    fill: ${props => props.theme.colors.mainLight};
     transition: fill .2s ease-in-out;
   }
 

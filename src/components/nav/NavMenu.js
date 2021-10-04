@@ -8,7 +8,7 @@ const NavMenu = () => {
   return (
     <MenuWrapper>
       {t('navMenu', { returnObjects: true }).map((item, i) => (
-        <MenuItem key={i} href="#">
+        <MenuItem key={i} exact to={i === 0 ? "/" : `/${item.toLowerCase()}`}>
           {item}
         </MenuItem>
       ))}

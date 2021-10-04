@@ -1,6 +1,6 @@
 import UserDropdownPanelItem from "./UserDropdownPanelItem";
 import LangButton from "./LangButton";
-import { UserPanelWrapper, UserWrapper, Avatar, UserName, UserDropdownPanel, LangWrapper } from "./UserPanel.styles";
+import { UserPanelWrapper, UserWrapper, Avatar, UserName, UserDropdownPanel, LangWrapper, Line } from "./UserPanel.styles";
 import { Hr } from "../atoms/Hr.styles";
 import { ReactComponent as UserIcon } from '../../assets/svg/icon-user.svg';
 import { ReactComponent as UserArrow } from '../../assets/svg/icon-chevron-down.svg';
@@ -27,9 +27,10 @@ const UserPanel = () => {
         <Hr />
         <LangWrapper>
           <LangButton lang={t('langEn')} title={t('langEnTitle')} />
-          <span style={{color: 'var(--main-accent-style)'}}>I&nbsp;&nbsp;</span>
+          <Line>I&nbsp;&nbsp;</Line>
           <LangButton lang={t('langPl')} title={t('langPlTitle')} />
         </LangWrapper>
+        <UserDropdownPanelItem linkName={t('userResetUi')} />
         <UserDropdownPanelItem linkName={t('userPanelLogout')} />
       </UserDropdownPanel>
     </UserPanelWrapper>
