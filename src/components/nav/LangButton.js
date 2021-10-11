@@ -7,6 +7,7 @@ const LangButton = (props) => {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    document.documentElement.lang = lng;
   };
 
   const isCurrentLang = () => props.lang.toLowerCase() === i18n.language;
