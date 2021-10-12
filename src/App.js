@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <GlobalStyle />
+      <GlobalStyle /> 
       <Router>
         <Theme>
           <Nav />
