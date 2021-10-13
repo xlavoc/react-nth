@@ -5,6 +5,7 @@ import Offers from './components/offers/Offers';
 import Orders from './components/orders/Orders';
 import { GlobalStyle } from './assets/styles/GlobalStyle';
 import Theme from './assets/styles/Theme';
+import ThemeMui from './assets/styles/ThemeMui';
 import { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -14,6 +15,7 @@ function App() {
       <GlobalStyle /> 
       <Router>
         <Theme>
+        <ThemeMui>
           <Nav />
           <main>
             <Switch>
@@ -31,6 +33,7 @@ function App() {
               </Route>
             </Switch>
           </main>
+        </ThemeMui>
         </Theme>
       </Router>
     </Suspense>
