@@ -1,4 +1,5 @@
 import Nav from './components/nav/Nav';
+import AppTopBar from './components/appbar/AppTopBar';
 import Dashboard from './components/dashboard/Dashboard';
 import Products from './components/products/Products';
 import Offers from './components/offers/Offers';
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Theme>
         <ThemeMui>
+          <AppTopBar />
           <Nav />
           <main>
             <Switch>
